@@ -1,0 +1,3 @@
+<h1 style='color:yellow'>Hello Golang</h1>
+<h1>Hello Golang</h1>
+<img id='t1' src='https://th.bing.com/th/id/OIP.BY3QJuH_Dg1meFpH6gCFEwHaLH?w=197&h=296&c=7&r=0&o=5&pid=1.7'>
