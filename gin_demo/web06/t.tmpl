@@ -7,13 +7,13 @@
 <h1>测试嵌套template语法</h1>
 <hr>
 {{/*嵌套另一个单独的template模板文件*/}}
-{{template "ul.template"}}
+{{template "ul.tmpl"}}
 {{/*嵌套另一个定义的模板*/}}
-{{template "ol.template"}}
+{{template "ol.tmpl"}}
 <hr>
 <div>你好，{{.}}</div>
 {{/*使用 define 定义一个模板*/}}
-{{define "ol.template"}}
+{{define "ol.tmpl"}}
     <ol>
         <li>吃饭</li>
         <li>睡觉</li>

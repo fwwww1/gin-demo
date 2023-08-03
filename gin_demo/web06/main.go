@@ -30,8 +30,7 @@ func f1(w http.ResponseWriter, r *http.Request) {
 }
 func demo1(w http.ResponseWriter, r *http.Request) {
 	//解析模板
-	t := template.New("t.tmpl") //创建模板对象
-	_, err := t.ParseFiles("./t.tmpl", "./ul.tmpl")
+	t, err := template.ParseFiles("./t.tmpl", "./ul.tmpl")
 	if err != nil {
 		fmt.Printf("parse template failed, err:%v", err)
 		return
